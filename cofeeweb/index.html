@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffeeOnline</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="navbar" id="navDiv">
+        <div class="navImages">
+            <a href="#firstDiv">
+                <img src="Pics\favicon.png" alt="favicon">
+                <img src="Pics\Coffetto.png" alt="pic">
+            </a>
+        </div>
+        <ul class="navlist">
+            <a href="#firstDiv">
+                <li id="Home">Home</li>
+            </a>
+            <a href="#secondDiv">
+                <li id="About">About</li>
+            </a>
+            <a href="#fourthDiv">
+                <li id="Steps">Steps</li>
+            </a>
+            <a href="#fifthDiv">
+                <li id="Testimonial">Testimonial</li>
+            </a>
+        </ul>
+    </div>
+    <div class="first" id="firstDiv">
+        <div class="firstRight">
+            <figure class="cofeeimg">
+                <img src="Pics\home-coffee.png" alt="coffee">
+            </figure>
+            <div class="div1Content">
+                <p class="eq">EXCEPTIONAL QUALITY</p>
+                <div class="imgAndText">
+                    <pre class="firstDivText">It's time for a
+good coffee</pre> <img src="Pics\home-coffee-title 1.png" alt="coffeebean" height="120px" width="124px">
+                </div>
+                <p class="firstDivText3">Each select coffee bean reflects our commitment to Peruvian coffee growers, who
+                    bring the best select coffee to your table.</p>
+                <button class="getStarted">Get Started ></button>
+            </div>
+        </div>
+
+    </div>
+
+    <div>
+        <div class="second" id="secondDiv">
+            <div class="img2">
+                <img src="Pics\Products group.png" alt="Products" height="120px">
+            </div>
+            <div class="text2">
+                <select name="coffeselect" id="coffeSelect">
+                    <option value="">Select</option>
+                    <option value="Black">Black</option>
+                    <option value="Raw">Raw</option>
+                    <option value="Processed">Processed</option>
+                </select>
+                <p class="div2Text">We strive to form deep partnerships with farmers from all over the world to create
+                    perspective together and form healthy working relationships built on trust and respect.</p>
+            </div>
+        </div>
+        <div class="third">
+            <div class="img3">
+                <img src="Pics\about-coffee.png" alt="pic" height="250px">
+            </div>
+            <div class="text3">
+                <h2 class="h2text3">Our History</h2>
+                <p class="h4text3">We make and grow the best coffee in Peru, accompanying families since 1930, with
+                    professional workers who harvest, collect and select the coffee with quality work, thus providing
+                    exquisite coffee to enjoy together as a family.</p>
+            </div>
+        </div>
+        <div class="fourth" id="fourthDiv">
+            <h2 class="h2text4">Steps of manufacturing our products</h2>
+            <div class="img4">
+                <div class="imgdown"><img src="Pics\bg-coffee-beans 1.png" alt="coffeeimgbg" height="600px"
+                        width="900px">
+                </div>
+                <div class="imgup"> <img src="Pics\Steps group.png" alt="" height="500px"></div>
+            </div>
+            <div class="text2"></div>
+        </div>
+        <div class="fifth" id="fifthDiv">
+            <div class="img5">
+                <img src="Pics\testimonial-coffee.png" alt="pic" height="250px">
+            </div>
+            <div class="text5">
+                <h2 class="h2text5">Coffee is the best drink in the morning, it keeps you focused.</h2>
+                <p class="h4text5">Jhon Doe</p>
+            </div>
+        </div>
+        <div class="sixth">
+            <!-- <div class="subSixth"> -->
+            <div class="img6">
+                <input type="text" class="email" placeholder="Enter e-mail..">
+                <button class="emailButton">Subscribe ></button>
+                <span style="color: white;">We care about your data. Read our <span class="privacyPolicy"
+                        onclick="privacyHover()"><u>Privacy
+                            Policy</u></span></span>
+            </div>
+            <div class="text6">
+                <img src="Pics\Footer logo.png" alt="" height="40px">
+                <h2 class="h2text6">Sign up for our newsletter</h2>
+            </div>
+            <!-- </div> -->
+        </div>
+        <div class="seventh">
+            <div class="metaButtonsText">
+                <div class="metaButtons">
+                    <button class="metaBtn fb" onclick="fbClick()"><img src="Pics\ri_facebook-fill.png" alt=""></button>
+                    <button class="metaBtn insta" onclick="instaClick()"><img src="Pics\ri_instagram-fill.png"
+                            alt=""></button>
+                    <button class="metaBtn X" onclick="xClick()"><img src="Pics\ri_twitter-fill.png" alt=""></button>
+                </div>
+                <div>
+                    <p class="copyright">© Copyright Bedimcode. All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
